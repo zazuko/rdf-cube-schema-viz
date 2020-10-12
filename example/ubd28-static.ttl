@@ -1,0 +1,8 @@
+@base <https://environment.ld.admin.ch/foen/ubd/28/> .
+@prefix qudt:    <http://qudt.org/schema/qudt#> .
+@prefix schema: <http://schema.org/>.
+
+<unit/ug-m3> a qudt:Unit ;
+  schema:name "µg/m3" .
+
+
