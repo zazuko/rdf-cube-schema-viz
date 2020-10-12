@@ -2970,14 +2970,6 @@
     a <http://ns.bergnet.org/cube/Constraint>, <http://www.w3.org/ns/shacl#NodeShape> ;
     <http://www.w3.org/ns/shacl#closed> true ;
     <http://www.w3.org/ns/shacl#property> [
-        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> ;
-        <http://www.w3.org/ns/shacl#in> ("µg/m3"
-        ) ;
-        <http://www.w3.org/ns/shacl#maxCount> 1 ;
-        <http://www.w3.org/ns/shacl#minCount> 1 ;
-        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
-        <http://www.w3.org/ns/shacl#path> <unit-id>
-    ], [
         <http://www.w3.org/ns/shacl#in> (<aggregation/annualmean>
             <aggregation/maxdailymean>
         ) ;
