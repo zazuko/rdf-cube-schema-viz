@@ -1,5 +1,6 @@
 @base <https://environment.ld.admin.ch/foen/ubd/28/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix qudt:    <http://qudt.org/schema/qudt#> .
 
 <ammonia>
     <http://ns.bergnet.org/cube/observationConstraint> <ammonia/shape/> ;
@@ -3003,7 +3004,8 @@
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#minInclusive> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
-        <http://www.w3.org/ns/shacl#path> <dimension/value>
+        <http://www.w3.org/ns/shacl#path> <dimension/value> ;
+        qudt:unit <unit/ug-m3> 
     ], [
         <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://www.w3.org/ns/shacl#in> ("2003"^^<http://www.w3.org/2001/XMLSchema#gYear>
