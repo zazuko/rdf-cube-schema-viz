@@ -1,0 +1,3048 @@
+@base <https://environment.ld.admin.ch/foen/ubd/28/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<ammonia>
+    <http://ns.bergnet.org/cube/observationConstraint> <ammonia/shape/> ;
+    <http://ns.bergnet.org/cube/observationSet> <ammonia/observation/> ;
+    a <http://ns.bergnet.org/cube/Cube> .
+
+<ammonia/observation/>
+    <http://ns.bergnet.org/cube/observation> <ammonia/observation/agMUR-2000-annualmean>, <ammonia/observation/agMUR-2001-annualmean>, <ammonia/observation/agMUR-2002-annualmean>, <ammonia/observation/agMUR-2003-annualmean>, <ammonia/observation/agMUR-2004-annualmean>, <ammonia/observation/agMUR-2005-annualmean>, <ammonia/observation/agMUR-2006-annualmean>, <ammonia/observation/agMUR-2007-annualmean>, <ammonia/observation/agMUR-2008-annualmean>, <ammonia/observation/agMUR-2009-annualmean>, <ammonia/observation/agMUR-2010-annualmean>, <ammonia/observation/agMUR-2011-annualmean>, <ammonia/observation/agMUR-2012-annualmean>, <ammonia/observation/agMUR-2013-annualmean>, <ammonia/observation/agMUR-2014-annualmean>, <ammonia/observation/agMUR-2015-annualmean>, <ammonia/observation/beWEN-2000-annualmean>, <ammonia/observation/beWEN-2001-annualmean>, <ammonia/observation/beWEN-2002-annualmean>, <ammonia/observation/beWEN-2003-annualmean>, <ammonia/observation/beWEN-2004-annualmean>, <ammonia/observation/beWEN-2005-annualmean>, <ammonia/observation/beWEN-2006-annualmean>, <ammonia/observation/beWEN-2007-annualmean>, <ammonia/observation/beWEN-2008-annualmean>, <ammonia/observation/beWEN-2009-annualmean>, <ammonia/observation/beWEN-2010-annualmean>, <ammonia/observation/beWEN-2011-annualmean>, <ammonia/observation/beWEN-2012-annualmean>, <ammonia/observation/beWEN-2013-annualmean>, <ammonia/observation/beWEN-2014-annualmean>, <ammonia/observation/beWEN-2015-annualmean>, <ammonia/observation/blSCB-2001-annualmean>, <ammonia/observation/blSCB-2002-annualmean>, <ammonia/observation/blSCB-2003-annualmean>, <ammonia/observation/blSCB-2004-annualmean>, <ammonia/observation/blSCB-2005-annualmean>, <ammonia/observation/blSCB-2006-annualmean>, <ammonia/observation/blSCB-2007-annualmean>, <ammonia/observation/blSCB-2008-annualmean>, <ammonia/observation/blSCB-2009-annualmean>, <ammonia/observation/blSCB-2010-annualmean>, <ammonia/observation/soHAE-2006-95pvaluehalfhour>, <ammonia/observation/soHAE-2006-maxdailymean>, <ammonia/observation/soHAE-2007-95pvaluehalfhour>, <ammonia/observation/soHAE-2007-annualmean>, <ammonia/observation/soHAE-2007-maxdailymean>, <ammonia/observation/soHAE-2008-95pvaluehalfhour>, <ammonia/observation/soHAE-2008-annualmean>, <ammonia/observation/soHAE-2008-maxdailymean>, <ammonia/observation/soHAE-2009-95pvaluehalfhour>, <ammonia/observation/soHAE-2009-annualmean>, <ammonia/observation/soHAE-2009-maxdailymean>, <ammonia/observation/soHAE-2010-95pvaluehalfhour>, <ammonia/observation/soHAE-2010-annualmean>, <ammonia/observation/soHAE-2010-maxdailymean>, <ammonia/observation/soHAE-2011-95pvaluehalfhour>, <ammonia/observation/soHAE-2011-annualmean>, <ammonia/observation/soHAE-2011-maxdailymean>, <ammonia/observation/soHAE-2012-95pvaluehalfhour>, <ammonia/observation/soHAE-2012-annualmean>, <ammonia/observation/soHAE-2012-maxdailymean>, <ammonia/observation/tgTAE-2008-95pvaluehalfhour>, <ammonia/observation/tgTAE-2008-annualmean>, <ammonia/observation/tgTAE-2008-maxdailymean>, <ammonia/observation/tgTAE-2009-95pvaluehalfhour>, <ammonia/observation/tgTAE-2009-annualmean>, <ammonia/observation/tgTAE-2009-maxdailymean>, <ammonia/observation/tgTAE-2010-95pvaluehalfhour>, <ammonia/observation/tgTAE-2010-annualmean>, <ammonia/observation/tgTAE-2010-maxdailymean>, <ammonia/observation/tgTAE-2011-95pvaluehalfhour>, <ammonia/observation/tgTAE-2011-annualmean>, <ammonia/observation/tgTAE-2011-maxdailymean>, <ammonia/observation/tgTAE-2012-95pvaluehalfhour>, <ammonia/observation/tgTAE-2012-annualmean>, <ammonia/observation/tgTAE-2012-maxdailymean>, <ammonia/observation/tgTAE-2013-95pvaluehalfhour>, <ammonia/observation/tgTAE-2013-annualmean>, <ammonia/observation/tgTAE-2013-maxdailymean>, <ammonia/observation/tgTAE-2014-95pvaluehalfhour>, <ammonia/observation/tgTAE-2014-annualmean>, <ammonia/observation/tgTAE-2014-maxdailymean>, <ammonia/observation/tgTAE-2015-95pvaluehalfhour>, <ammonia/observation/tgTAE-2015-annualmean>, <ammonia/observation/tgTAE-2015-maxdailymean>, <ammonia/observation/tiMAG-2006-95pvaluehalfhour>, <ammonia/observation/tiMAG-2006-maxdailymean>, <ammonia/observation/tiMAG-2007-95pvaluehalfhour>, <ammonia/observation/tiMAG-2007-annualmean>, <ammonia/observation/tiMAG-2007-maxdailymean>, <ammonia/observation/tiMAG-2008-95pvaluehalfhour>, <ammonia/observation/tiMAG-2008-annualmean>, <ammonia/observation/tiMAG-2008-maxdailymean>, <ammonia/observation/tiMAG-2009-95pvaluehalfhour>, <ammonia/observation/tiMAG-2009-annualmean>, <ammonia/observation/tiMAG-2009-maxdailymean>, <ammonia/observation/tiMAG-2010-95pvaluehalfhour>, <ammonia/observation/tiMAG-2010-annualmean>, <ammonia/observation/tiMAG-2010-maxdailymean>, <ammonia/observation/tiMAG-2014-95pvaluehalfhour>, <ammonia/observation/tiMAG-2014-annualmean>, <ammonia/observation/tiMAG-2014-maxdailymean>, <ammonia/observation/tiMAG-2015-95pvaluehalfhour>, <ammonia/observation/tiMAG-2015-annualmean>, <ammonia/observation/tiMAG-2015-maxdailymean>, <ammonia/observation/tiSAG-2000-annualmean>, <ammonia/observation/tiSAG-2001-annualmean>, <ammonia/observation/tiSAG-2002-annualmean>, <ammonia/observation/tiSAG-2003-annualmean>, <ammonia/observation/tiSAG-2004-annualmean>, <ammonia/observation/tiSAG-2005-annualmean>, <ammonia/observation/tiSAG-2006-annualmean>, <ammonia/observation/tiSAG-2007-annualmean>, <ammonia/observation/tiSAG-2008-annualmean>, <ammonia/observation/tiSAG-2009-annualmean>, <ammonia/observation/tiSAG-2010-annualmean>, <ammonia/observation/tiSAG-2011-annualmean>, <ammonia/observation/tiSAG-2012-annualmean>, <ammonia/observation/tiSAG-2013-annualmean>, <ammonia/observation/tiSAG-2014-annualmean>, <ammonia/observation/tiSAG-2015-annualmean>, <ammonia/observation/vdPAY-2006-95pvaluehalfhour>, <ammonia/observation/vdPAY-2006-annualmean>, <ammonia/observation/vdPAY-2006-maxdailymean>, <ammonia/observation/vdPAY-2007-95pvaluehalfhour>, <ammonia/observation/vdPAY-2007-annualmean>, <ammonia/observation/vdPAY-2007-maxdailymean>, <ammonia/observation/vdPAY-2008-95pvaluehalfhour>, <ammonia/observation/vdPAY-2008-annualmean>, <ammonia/observation/vdPAY-2008-maxdailymean>, <ammonia/observation/vdPAY-2009-95pvaluehalfhour>, <ammonia/observation/vdPAY-2009-annualmean>, <ammonia/observation/vdPAY-2009-maxdailymean>, <ammonia/observation/vdPAY-2010-95pvaluehalfhour>, <ammonia/observation/vdPAY-2010-annualmean>, <ammonia/observation/vdPAY-2010-maxdailymean>, <ammonia/observation/vdPAY-2011-95pvaluehalfhour>, <ammonia/observation/vdPAY-2011-annualmean>, <ammonia/observation/vdPAY-2011-maxdailymean>, <ammonia/observation/vdPAY-2012-95pvaluehalfhour>, <ammonia/observation/vdPAY-2012-annualmean>, <ammonia/observation/vdPAY-2012-maxdailymean>, <ammonia/observation/vdPAY-2013-95pvaluehalfhour>, <ammonia/observation/vdPAY-2013-annualmean>, <ammonia/observation/vdPAY-2013-maxdailymean>, <ammonia/observation/vdPAY-2014-95pvaluehalfhour>, <ammonia/observation/vdPAY-2014-annualmean>, <ammonia/observation/vdPAY-2014-maxdailymean>, <ammonia/observation/vdPAY-2015-95pvaluehalfhour>, <ammonia/observation/vdPAY-2015-annualmean>, <ammonia/observation/vdPAY-2015-maxdailymean>, <ammonia/observation/vsSIO-2011-95pvaluehalfhour>, <ammonia/observation/vsSIO-2011-annualmean>, <ammonia/observation/vsSIO-2011-maxdailymean>, <ammonia/observation/vsSIO-2012-95pvaluehalfhour>, <ammonia/observation/vsSIO-2012-annualmean>, <ammonia/observation/vsSIO-2012-maxdailymean>, <ammonia/observation/vsSIO-2013-95pvaluehalfhour>, <ammonia/observation/vsSIO-2013-annualmean>, <ammonia/observation/vsSIO-2013-maxdailymean>, <ammonia/observation/vsSIO-2014-95pvaluehalfhour>, <ammonia/observation/vsSIO-2014-annualmean>, <ammonia/observation/vsSIO-2014-maxdailymean>, <ammonia/observation/zgZGB-2000-annualmean>, <ammonia/observation/zgZGB-2001-annualmean>, <ammonia/observation/zgZGB-2002-annualmean>, <ammonia/observation/zgZGB-2003-annualmean>, <ammonia/observation/zgZGB-2004-annualmean>, <ammonia/observation/zgZGB-2005-annualmean>, <ammonia/observation/zgZGB-2006-annualmean>, <ammonia/observation/zgZGB-2007-annualmean>, <ammonia/observation/zgZGB-2008-annualmean>, <ammonia/observation/zgZGB-2009-annualmean>, <ammonia/observation/zgZGB-2010-annualmean>, <ammonia/observation/zgZGB-2011-annualmean>, <ammonia/observation/zgZGB-2012-annualmean>, <ammonia/observation/zgZGB-2013-annualmean>, <ammonia/observation/zgZGB-2014-annualmean>, <ammonia/observation/zgZGB-2015-annualmean>, <ammonia/observation/zhZBW-2008-annualmean>, <ammonia/observation/zhZBW-2010-annualmean>, <ammonia/observation/zhZBW-2011-annualmean>, <ammonia/observation/zhZBW-2012-annualmean>, <ammonia/observation/zhZUE-2006-95pvaluehalfhour>, <ammonia/observation/zhZUE-2006-annualmean>, <ammonia/observation/zhZUE-2006-maxdailymean>, <ammonia/observation/zhZUE-2007-95pvaluehalfhour>, <ammonia/observation/zhZUE-2007-annualmean>, <ammonia/observation/zhZUE-2007-maxdailymean> ;
+    a <http://ns.bergnet.org/cube/ObservationSet> .
+
+<ammonia/observation/agMUR-2000-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2001-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2002-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/agMUR-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/agMUR> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2000-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2001-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2002-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/beWEN-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beWEN> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2001-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2002-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/blSCB-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blSCB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2006-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "11.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2007-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "7.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2008-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "7.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2009-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "8.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "64"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2010-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "9.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "26"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2011-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2012-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "8.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/soHAE-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "17"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2008-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "12.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "20"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2009-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "13.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2010-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "13.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "21"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2011-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "17.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "6.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "37"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2012-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "14.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "44"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2013-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "12.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2013-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "34"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2014-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "13.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2014-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2015-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "13.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tgTAE-2015-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tgTAE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2006-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "12.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2007-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "7.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2008-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "6.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2009-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "8.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2010-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2014-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "10.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2014-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2015-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "16.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiMAG-2015-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "30"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2000-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2001-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2002-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/tiSAG-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiSAG> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2006-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "6.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2007-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "20"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2008-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "17"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2009-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "11"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2010-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "6.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2011-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "9.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "16"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2012-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "7.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2013-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2013-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2014-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2014-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2015-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "6.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vdPAY-2015-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "12"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2011-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "9.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "12"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2012-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "7.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2013-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "8.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2013-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2014-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "8.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/vsSIO-2014-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vsSIO> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2000-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2001-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2002-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2014-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zgZGB-2015-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "1.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zgZGB> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZBW-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZBW> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZBW-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZBW> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZBW-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZBW> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZBW-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZBW> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2006-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2007-95pvaluehalfhour>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/95pvaluehalfhour> ;
+    <dimension/value> "5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "2.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/observation/zhZUE-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/zhZUE> ;
+    <unit-id> "µg/m3" .
+
+<ammonia/shape/>
+    a <http://ns.bergnet.org/cube/Constraint>, <http://www.w3.org/ns/shacl#NodeShape> ;
+    <http://www.w3.org/ns/shacl#closed> true ;
+    <http://www.w3.org/ns/shacl#property> [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/ns/shacl#in> ("µg/m3"
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <unit-id>
+    ], [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#maxInclusive> "64"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#minInclusive> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <dimension/value>
+    ], [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://www.w3.org/ns/shacl#in> ("2000"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2001"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2002"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2003"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2004"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2005"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2006"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2007"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2008"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2009"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2010"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2011"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2012"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2013"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2014"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2015"^^<http://www.w3.org/2001/XMLSchema#gYear>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <dimension/year>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<aggregation/annualmean>
+            <aggregation/95pvaluehalfhour>
+            <aggregation/maxdailymean>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <aggregation>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<http://ns.bergnet.org/cube/Observation>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> rdf:type
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<https://ld.stadt-zuerich.ch/>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <http://ns.bergnet.org/cube/observedBy>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<station/agMUR>
+            <station/tiSAG>
+            <station/beWEN>
+            <station/zgZGB>
+            <station/blSCB>
+            <station/soHAE>
+            <station/tiMAG>
+            <station/vdPAY>
+            <station/zhZUE>
+            <station/tgTAE>
+            <station/zhZBW>
+            <station/vsSIO>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <station>
+    ] .
+
+<pm1>
+    <http://ns.bergnet.org/cube/observationConstraint> <pm1/shape/> ;
+    <http://ns.bergnet.org/cube/observationSet> <pm1/observation/> ;
+    a <http://ns.bergnet.org/cube/Cube> .
+
+<pm1/observation/>
+    <http://ns.bergnet.org/cube/observation> <pm1/observation/beBER-2003-annualmean>, <pm1/observation/beBER-2003-maxdailymean>, <pm1/observation/beBER-2004-annualmean>, <pm1/observation/beBER-2004-maxdailymean>, <pm1/observation/beBER-2005-annualmean>, <pm1/observation/beBER-2005-maxdailymean>, <pm1/observation/beBER-2006-annualmean>, <pm1/observation/beBER-2006-maxdailymean>, <pm1/observation/beBER-2007-annualmean>, <pm1/observation/beBER-2007-maxdailymean>, <pm1/observation/beBER-2008-annualmean>, <pm1/observation/beBER-2008-maxdailymean>, <pm1/observation/beBER-2009-annualmean>, <pm1/observation/beBER-2009-maxdailymean>, <pm1/observation/beBER-2010-annualmean>, <pm1/observation/beBER-2010-maxdailymean>, <pm1/observation/blBAS-2003-annualmean>, <pm1/observation/blBAS-2003-maxdailymean>, <pm1/observation/blBAS-2004-annualmean>, <pm1/observation/blBAS-2004-maxdailymean>, <pm1/observation/blBAS-2005-annualmean>, <pm1/observation/blBAS-2005-maxdailymean>, <pm1/observation/blBAS-2006-annualmean>, <pm1/observation/blBAS-2006-maxdailymean>, <pm1/observation/blBAS-2007-annualmean>, <pm1/observation/blBAS-2007-maxdailymean>, <pm1/observation/blBAS-2008-annualmean>, <pm1/observation/blBAS-2008-maxdailymean>, <pm1/observation/blBAS-2009-annualmean>, <pm1/observation/blBAS-2009-maxdailymean>, <pm1/observation/blBAS-2010-annualmean>, <pm1/observation/blBAS-2010-maxdailymean>, <pm1/observation/blMUT-2009-annualmean>, <pm1/observation/blMUT-2009-maxdailymean>, <pm1/observation/blMUT-2010-annualmean>, <pm1/observation/blMUT-2010-maxdailymean>, <pm1/observation/grROT-2010-annualmean>, <pm1/observation/grROT-2010-maxdailymean>, <pm1/observation/grROT-2011-annualmean>, <pm1/observation/grROT-2011-maxdailymean>, <pm1/observation/luREI-2007-annualmean>, <pm1/observation/luREI-2007-maxdailymean>, <pm1/observation/luREI-2008-annualmean>, <pm1/observation/luREI-2008-maxdailymean>, <pm1/observation/luREI-2009-annualmean>, <pm1/observation/luREI-2009-maxdailymean>, <pm1/observation/luREI-2010-annualmean>, <pm1/observation/luREI-2010-maxdailymean>, <pm1/observation/luREI-2011-annualmean>, <pm1/observation/luREI-2011-maxdailymean>, <pm1/observation/neCHA-2003-annualmean>, <pm1/observation/neCHA-2003-maxdailymean>, <pm1/observation/neCHA-2004-annualmean>, <pm1/observation/neCHA-2004-maxdailymean>, <pm1/observation/neCHA-2005-annualmean>, <pm1/observation/neCHA-2005-maxdailymean>, <pm1/observation/neCHA-2006-annualmean>, <pm1/observation/neCHA-2006-maxdailymean>, <pm1/observation/soHAE-2003-annualmean>, <pm1/observation/soHAE-2003-maxdailymean>, <pm1/observation/soHAE-2004-annualmean>, <pm1/observation/soHAE-2004-maxdailymean>, <pm1/observation/soHAE-2005-annualmean>, <pm1/observation/soHAE-2005-maxdailymean>, <pm1/observation/soHAE-2006-annualmean>, <pm1/observation/soHAE-2006-maxdailymean>, <pm1/observation/soHAE-2007-annualmean>, <pm1/observation/soHAE-2007-maxdailymean>, <pm1/observation/soHAE-2008-annualmean>, <pm1/observation/soHAE-2008-maxdailymean>, <pm1/observation/soHAE-2009-annualmean>, <pm1/observation/soHAE-2009-maxdailymean>, <pm1/observation/soHAE-2010-annualmean>, <pm1/observation/soHAE-2010-maxdailymean>, <pm1/observation/soHAE-2011-annualmean>, <pm1/observation/soHAE-2011-maxdailymean>, <pm1/observation/soHAE-2012-annualmean>, <pm1/observation/soHAE-2012-maxdailymean>, <pm1/observation/soHAE-2013-annualmean>, <pm1/observation/soHAE-2013-maxdailymean>, <pm1/observation/szRIG-2007-annualmean>, <pm1/observation/szRIG-2007-maxdailymean>, <pm1/observation/szRIG-2008-annualmean>, <pm1/observation/szRIG-2008-maxdailymean>, <pm1/observation/szRIG-2009-annualmean>, <pm1/observation/szRIG-2009-maxdailymean>, <pm1/observation/szRIG-2010-annualmean>, <pm1/observation/szRIG-2010-maxdailymean>, <pm1/observation/tiCAM-2010-annualmean>, <pm1/observation/tiCAM-2010-maxdailymean>, <pm1/observation/tiLUG-2003-annualmean>, <pm1/observation/tiLUG-2003-maxdailymean>, <pm1/observation/tiLUG-2004-annualmean>, <pm1/observation/tiLUG-2004-maxdailymean>, <pm1/observation/tiLUG-2005-annualmean>, <pm1/observation/tiLUG-2005-maxdailymean>, <pm1/observation/tiLUG-2006-annualmean>, <pm1/observation/tiLUG-2006-maxdailymean>, <pm1/observation/tiLUG-2007-annualmean>, <pm1/observation/tiLUG-2007-maxdailymean>, <pm1/observation/tiLUG-2008-annualmean>, <pm1/observation/tiLUG-2008-maxdailymean>, <pm1/observation/tiLUG-2009-annualmean>, <pm1/observation/tiLUG-2009-maxdailymean>, <pm1/observation/tiLUG-2010-annualmean>, <pm1/observation/tiLUG-2010-maxdailymean>, <pm1/observation/tiMOL-2010-annualmean>, <pm1/observation/tiMOL-2010-maxdailymean>, <pm1/observation/urERS-2008-annualmean>, <pm1/observation/urERS-2008-maxdailymean>, <pm1/observation/urERS-2009-annualmean>, <pm1/observation/urERS-2009-maxdailymean>, <pm1/observation/urERS-2010-annualmean>, <pm1/observation/urERS-2010-maxdailymean>, <pm1/observation/urERS-2011-annualmean>, <pm1/observation/urERS-2011-maxdailymean>, <pm1/observation/vdPAY-2006-annualmean>, <pm1/observation/vdPAY-2006-maxdailymean>, <pm1/observation/vdPAY-2007-annualmean>, <pm1/observation/vdPAY-2007-maxdailymean>, <pm1/observation/vdPAY-2008-annualmean>, <pm1/observation/vdPAY-2008-maxdailymean>, <pm1/observation/vdPAY-2009-annualmean>, <pm1/observation/vdPAY-2009-maxdailymean>, <pm1/observation/vdPAY-2010-annualmean>, <pm1/observation/vdPAY-2010-maxdailymean>, <pm1/observation/vdPAY-2012-annualmean>, <pm1/observation/vdPAY-2012-maxdailymean> ;
+    a <http://ns.bergnet.org/cube/ObservationSet> .
+
+<pm1/observation/beBER-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "18.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2003-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "40"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "16.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2004-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "16.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2005-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "17.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "70"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "48"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "42"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/beBER-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/beBER> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2003-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2004-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2005-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "10.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "48"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "9.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "39"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "10.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blBAS-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blBAS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blMUT-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "17"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blMUT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blMUT-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blMUT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blMUT-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "20"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blMUT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/blMUT-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/blMUT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/grROT-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/grROT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/grROT-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/grROT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/grROT-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/grROT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/grROT-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/grROT> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "13.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "58"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "16.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/luREI-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/luREI> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "8.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2003-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "6.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2004-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "21"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "7.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2005-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "6.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/neCHA-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/neCHA> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "18"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2003-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "65"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "15.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2004-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "58"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "15.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2005-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "70"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "51"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "42"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "42"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "51"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "10.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "54"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2013-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/soHAE-2013-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "52"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/soHAE> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "34"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "30"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "5.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/szRIG-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "27"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/szRIG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiCAM-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "19.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiCAM> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiCAM-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "67"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiCAM> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2003-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "19.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2003-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "76"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2004-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "18.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2004-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2005-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "18.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2005-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "69"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "16.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "65"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "15.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "54"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "12.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiLUG-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiLUG> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiMOL-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "19.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMOL> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/tiMOL-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "77"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/tiMOL> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "40"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2011-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "14.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/urERS-2011-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/urERS> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2006-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2006-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2007-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "9.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2007-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "34"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2008-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2008-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2009-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "8.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2009-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2010-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "8.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2010-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2012-annualmean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/annualmean> ;
+    <dimension/value> "7.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/observation/vdPAY-2012-maxdailymean>
+    <http://ns.bergnet.org/cube/observedBy> <https://ld.stadt-zuerich.ch/> ;
+    a <http://ns.bergnet.org/cube/Observation> ;
+    <aggregation> <aggregation/maxdailymean> ;
+    <dimension/value> "29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+    <dimension/year> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    <station> <station/vdPAY> ;
+    <unit-id> "µg/m3" .
+
+<pm1/shape/>
+    a <http://ns.bergnet.org/cube/Constraint>, <http://www.w3.org/ns/shacl#NodeShape> ;
+    <http://www.w3.org/ns/shacl#closed> true ;
+    <http://www.w3.org/ns/shacl#property> [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/ns/shacl#in> ("µg/m3"
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <unit-id>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<aggregation/annualmean>
+            <aggregation/maxdailymean>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <aggregation>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<station/blBAS>
+            <station/beBER>
+            <station/neCHA>
+            <station/soHAE>
+            <station/tiLUG>
+            <station/szRIG>
+            <station/luREI>
+            <station/vdPAY>
+            <station/urERS>
+            <station/blMUT>
+            <station/grROT>
+            <station/tiCAM>
+            <station/tiMOL>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <station>
+    ], [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#maxInclusive> "82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#minInclusive> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <dimension/value>
+    ], [
+        <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://www.w3.org/ns/shacl#in> ("2003"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2004"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2005"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2006"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2007"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2008"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2009"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2010"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2011"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2012"^^<http://www.w3.org/2001/XMLSchema#gYear>
+            "2013"^^<http://www.w3.org/2001/XMLSchema#gYear>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+        <http://www.w3.org/ns/shacl#path> <dimension/year>
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<http://ns.bergnet.org/cube/Observation>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> rdf:type
+    ], [
+        <http://www.w3.org/ns/shacl#in> (<https://ld.stadt-zuerich.ch/>
+        ) ;
+        <http://www.w3.org/ns/shacl#maxCount> 1 ;
+        <http://www.w3.org/ns/shacl#minCount> 1 ;
+        <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+        <http://www.w3.org/ns/shacl#path> <http://ns.bergnet.org/cube/observedBy>
+    ] .
+
