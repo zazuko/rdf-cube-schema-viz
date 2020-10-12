@@ -1,0 +1,59 @@
+BASE <http://ns.bergnet.org/cube/scale/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<ScaleOfMeasure> a rdf:Class ;
+  rdfs:label "Scale of Measure"@en ;
+  skos:altLabel "Level of measurement"@en ;
+  rdfs:seeAlso <https://en.wikipedia.org/wiki/Level_of_measurement> .
+
+<Numerical> a <ScaleOfMeasure> ;
+  rdfs:label "Numerical"@en ;
+  rdfs:comment "Made of numbers"@en ;
+  skos:example "Age, weight, number of children, shoe size"@en .
+
+<Categorical> a <ScaleOfMeasure> ; 
+  rdfs:label "Categorical"@en ;
+  rdfs:comment "Made of words"@en ;
+  skos:example "Eye colour, gender, blood type"@en .
+
+<Continuous> a <ScaleOfMeasure> ; # -> double, float, decimal
+  rdfs:subClassOf <Numerical> ;
+  rdfs:label "Continuous"@en ;
+  rdfs:comment "Uncountable options"@en ;
+  skos:example "Weight, blood pressure"@en .
+
+<Discrete> a <ScaleOfMeasure> ; # -> integer
+  rdfs:subClassOf <Numerical> ;
+  rdfs:label "Discrete"@en ;
+  rdfs:comment "Countable options"@en ;
+  skos:exmaple "Integer, shoe size, number of children"@en .
+
+<Ordinal> a <ScaleOfMeasure> ; # -> all codelists that are ordered, example: Grössenklasse
+  rdfs:subClassOf <Categorical> ;
+  rdfs:label "Ordinal"@en ;
+  rdfs:comment "Categories have order"@en ;
+  skos:example "Pain severity, satisfaction, rating, mood"@en.
+
+<Nominal> a <ScaleOfMeasure> ; # -> all codelists/categories that are not ordered
+  rdfs:subClassOf <Categorical> ;
+  rdfs:label "Nominal"@en ;
+  rdfs:comment "Categories have no order"@en ;
+  skos:example: "Eye colour, dog breed, blood type"@en .
+
+<Spatial> a <ScaleOfMeasure> ;
+  rdfs:subClassOf <Categorical> ; # is that correct? Is lat/long categorical for example?
+  rdfs:label "Spatial"@en ;
+  skos:example "Country, region, municipality. Can be shown on map in some way"@en .
+
+<Temporal> a <ScaleOfMeasure> ;
+  rdfs:subClassOf <Numerical> ; # also here, correct conclusion?
+  rdfs:label "Temporal"@en ;
+  rdfs:comment "TDB"@en ;
+  skos:example "XSD datatypes like date, dateTime, gDay, gMonth, gMonthDay, gYear, gYearMonth"@en .
+
+<scaleOfMeasure> a rdf:Property ;
+  skos:label "Scale of measure"@en ;
+  rdfs:range <ScaleOfMeasure> .
+
