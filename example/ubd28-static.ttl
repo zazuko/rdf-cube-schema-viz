@@ -52,13 +52,13 @@ PREFIX wd: <http://www.wikidata.org/entity/>
     schema:publisher <org/FOEN> ;
     schema:contactPoint <org/FOEN> ;
     schema:contributor <org/zazuko> ;
-    schema:identifier  "UBD0028@bafu.admin.ch" ;
+    schema:identifier "UBD0028@bafu.admin.ch" ;
     schema:dateCreated "2015-08-06"^^xsd:date;
-    schema:dateModified  "2020-10-12"^^xsd:date;
+    schema:dateModified "2020-10-12"^^xsd:date;
     dcat:distribution <dataset/ubd28-dist> ;
-    dcat:theme  <https://www.termdat.bk.admin.ch/Entry/EntryDetail/344677> ; # URIs
-    dcat:keyword  "Raum"@de, "Umwelt"@de; # strings
-    dcat:landingPage  <https://test.lindas.admin.ch/sparql/> ;
+    dcat:theme <topic/air-quality> ; # URIs
+    dcat:keyword "Raum"@de, "Umwelt"@de; # strings
+    dcat:landingPage <https://test.lindas.admin.ch/sparql/> ;
     void:sparqlEndpoint <https://test.lindas.admin.ch/query> ;
     void:rootResource <https://environment.ld.admin.ch/foen/ubd/28/> ;
     void:exampleResource <https://environment.ld.admin.ch/foen/ubd/28/ammonia/observation/agMUR-2000-annualmean> ;
@@ -69,6 +69,14 @@ PREFIX wd: <http://www.wikidata.org/entity/>
     dcterms:publisher <org/FOEN> ;
     dcterms:identifier  "UBD0028.xls@bafu.admin.ch" ;
     dcat:downloadURL  <http://www.ubst.bafu.admin.ch/opendata/UBD0028.xlsx>, <http://www.ubst.bafu.admin.ch/opendata/UBD0028.ods> .
+
+##
+## Topics
+##
+
+<topic/air-quality> a skos:Concept ;
+  schema:name "Luftqualität"@de, "air quality index"@en, "indice de la qualité de l'air"@fr ;
+  owl:sameAs <http://www.wikidata.org/entity/Q2364111> .
 
 
 ##
