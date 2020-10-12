@@ -1,8 +1,82 @@
-@base <https://environment.ld.admin.ch/foen/ubd/28/> .
-@prefix qudt:    <http://qudt.org/schema/qudt#> .
-@prefix schema: <http://schema.org/>.
+BASE <https://environment.ld.admin.ch/>
+PREFIX qudt:    <http://qudt.org/schema/qudt#>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX wv: <http://vocab.org/waiver/terms/norms>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX schema: <http://schema.org/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX duv: <http://www.w3.org/ns/duv#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+
+<.well-known/void> a void:DatasetDescription, schema:DataCatalog ;
+    schema:name "Datasets around the environment"@en ;
+    schema:dataset <dataset/ubd28> .
+
+##
+## Organizations
+##
+
+<org/zazuko> a schema:Corporation ;
+    schema:name "Zazuko GmbH" ;
+    rdfs:seeAlso wd:Q93230157 ;
+    schema:url <https://zazuko.com/>
+    .
+
+<org/foen> a foaf:Organization, schema:GovernmentOrganization;
+    schema:name "Federal Office for the Environment FOEN"@en;
+    schema:name "Bundesamt für Umwelt BAFU"@de ;
+    schema:name "Office fédéral de l'environnement OFEV"@fr;
+    schema:name "Ufficio federale dell'ambiente UFAM"@it ;
+    foaf:homepage <http://www.bafu.admin.ch/> .
+
+<org/lindas> a schema:GovernmentOrganization ;
+    schema:name "LINDAS" ;
+    schema:url <https://lindas.admin.ch/> ;
+.    
+
+##
+## Datasets
+##
+
+<dataset/ubd28> a void:Dataset, dcat:Dataset, schema:Dataset;
+    schema:name "Luftqualität Schweiz (Jahreswerte)"@de ;
+    schema:description "Messdaten (Jahreswerte) von nationalen, kantonalen und kommunalen Messstationen für Luftschadstoffe, zusammengestellt durch die Schweizerische Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) und das BAFU. Mit den Umwelt Basisdaten stellt das Bundesamt für Umwelt diverse Datensätze zur Verfügung, die Auskunft über die Belastung der Umwelt in der Schweiz geben. Exemplarisch stehen zwei Datensätze als Linked Data (Data Cube Vokabular) zur Verfügung. Diese können über SPARQL abgefragt und mit Webbasiserten Werkzeugen einfach konsumiert werden."@de ;
+    schema:publisher <org/FOEN> ;
+    schema:contactPoint <org/FOEN> ;
+    schema:contributor <org/zazuko> ;
+    schema:identifier  "UBD0028@bafu.admin.ch" ;
+    schema:dateCreated "2015-08-06"^^xsd:date;
+    schema:dateModified  "2020-10-12"^^xsd:date;
+    dcat:distribution <dataset/ubd28-dist> ;
+    dcat:theme  <https://www.termdat.bk.admin.ch/Entry/EntryDetail/344677> ; # URIs
+    dcat:keyword  "Raum"@de, "Umwelt"@de; # strings
+    dcat:landingPage  <https://test.lindas.admin.ch/sparql/> ;
+    void:sparqlEndpoint <https://test.lindas.admin.ch/query> ;
+    void:rootResource <https://environment.ld.admin.ch/foen/ubd/28/> ;
+    void:exampleResource <https://environment.ld.admin.ch/foen/ubd/28/ammonia/observation/agMUR-2000-annualmean> ;
+    void:exampleResource <https://environment.ld.admin.ch/foen/ubd/28/pm1/observation/szRIG-2010-maxdailymean> .
+
+<dataset/ubd28-Dist> a dcat:Dataset ;
+    dcterms:issued "2015-08-06"^^xsd:date; # date of publication of the source
+    dcterms:publisher <org/FOEN> ;
+    dcterms:identifier  "UBD0028.xls@bafu.admin.ch" ;
+    dcat:downloadURL  <http://www.ubst.bafu.admin.ch/opendata/UBD0028.xlsx>, <http://www.ubst.bafu.admin.ch/opendata/UBD0028.ods> .
+
+
+##
+## Units
+##
 
 <unit/ug-m3> a qudt:Unit ;
   schema:name "µg/m3" .
+
 
 
