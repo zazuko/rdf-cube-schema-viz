@@ -1,6 +1,7 @@
 @base <https://environment.ld.admin.ch/foen/ubd/28/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix qudt:    <http://qudt.org/schema/qudt#> .
+@prefix scale: <http://ns.bergnet.org/cube/scale/> .
 
 <ammonia>
     <http://ns.bergnet.org/cube/observationConstraint> <ammonia/shape/> ;
@@ -1739,7 +1740,8 @@
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#minInclusive> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
-        <http://www.w3.org/ns/shacl#path> <dimension/value>
+        <http://www.w3.org/ns/shacl#path> <dimension/value> ;
+        scale:scaleOfMeasure scale:Continuous
     ], [
         <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://www.w3.org/ns/shacl#in> ("2000"^^<http://www.w3.org/2001/XMLSchema#gYear>
@@ -1762,7 +1764,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
-        <http://www.w3.org/ns/shacl#path> <dimension/year>
+        <http://www.w3.org/ns/shacl#path> <dimension/year> ;
+        scale:scaleOfMeasure scale:Temporal
     ], [
         <http://www.w3.org/ns/shacl#in> (<aggregation/annualmean>
             <aggregation/95pvaluehalfhour>
@@ -1771,7 +1774,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
-        <http://www.w3.org/ns/shacl#path> <aggregation>
+        <http://www.w3.org/ns/shacl#path> <aggregation> ;
+        scale:scaleOfMeasure scale:Nominal
     ], [
         <http://www.w3.org/ns/shacl#in> (<http://ns.bergnet.org/cube/Observation>
         ) ;
@@ -1803,7 +1807,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
-        <http://www.w3.org/ns/shacl#path> <station>
+        <http://www.w3.org/ns/shacl#path> <station> ;
+        scale:scaleOfMeasure scale:Spatial
     ] .
 
 <pm1>
@@ -2849,7 +2854,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
-        <http://www.w3.org/ns/shacl#path> <aggregation>
+        <http://www.w3.org/ns/shacl#path> <aggregation> ;
+        scale:scaleOfMeasure scale:Nominal
     ], [
         <http://www.w3.org/ns/shacl#in> (<station/blBAS>
             <station/beBER>
@@ -2868,7 +2874,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
-        <http://www.w3.org/ns/shacl#path> <station>
+        <http://www.w3.org/ns/shacl#path> <station> ;
+        scale:scaleOfMeasure scale:Spatial
     ], [
         <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
@@ -2877,7 +2884,8 @@
         <http://www.w3.org/ns/shacl#minInclusive> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
         <http://www.w3.org/ns/shacl#path> <dimension/value> ;
-        qudt:unit <unit/ug-m3> 
+        qudt:unit <unit/ug-m3> ;
+        scale:scaleOfMeasure scale:Continuous
     ], [
         <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://www.w3.org/ns/shacl#in> ("2003"^^<http://www.w3.org/2001/XMLSchema#gYear>
@@ -2895,7 +2903,8 @@
         <http://www.w3.org/ns/shacl#maxCount> 1 ;
         <http://www.w3.org/ns/shacl#minCount> 1 ;
         <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
-        <http://www.w3.org/ns/shacl#path> <dimension/year>
+        <http://www.w3.org/ns/shacl#path> <dimension/year> ;
+        scale:scaleOfMeasure scale:Temporal
     ], [
         <http://www.w3.org/ns/shacl#in> (<http://ns.bergnet.org/cube/Observation>
         ) ;
