@@ -15,6 +15,8 @@ PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX duv: <http://www.w3.org/ns/duv#>
 PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX cube: <http://ns.bergnet.org/cube/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 <.well-known/void> a void:DatasetDescription, schema:DataCatalog ;
     schema:name "Datasets around the environment"@en ;
@@ -52,6 +54,7 @@ PREFIX wd: <http://www.wikidata.org/entity/>
     schema:publisher <org/FOEN> ;
     schema:contactPoint <org/FOEN> ;
     schema:contributor <org/zazuko> ;
+    schema:hasPart <foen/ubd/28/ammonia>, <foen/ubd/28/pm1> ;
     schema:identifier "UBD0028@bafu.admin.ch" ;
     schema:dateCreated "2015-08-06"^^xsd:date;
     schema:dateModified "2020-10-12"^^xsd:date;
@@ -69,6 +72,33 @@ PREFIX wd: <http://www.wikidata.org/entity/>
     dcterms:publisher <org/FOEN> ;
     dcterms:identifier  "UBD0028.xls@bafu.admin.ch" ;
     dcat:downloadURL  <http://www.ubst.bafu.admin.ch/opendata/UBD0028.xlsx>, <http://www.ubst.bafu.admin.ch/opendata/UBD0028.ods> .
+
+##
+## Cubes
+##
+
+
+<foen/ubd/28/ammonia> a cube:Cube ;
+    schema:name "Luftqualität Schweiz: Ammoniak"@de ;
+    schema:description "Messdaten (Jahreswerte) von nationalen, kantonalen und kommunalen Messstationen für Luftschadstoffe, zusammengestellt durch die Schweizerische Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) und das BAFU. Mit den Umwelt Basisdaten stellt das Bundesamt für Umwelt diverse Datensätze zur Verfügung, die Auskunft über die Belastung der Umwelt in der Schweiz geben. Exemplarisch stehen zwei Datensätze als Linked Data (Data Cube Vokabular) zur Verfügung. Diese können über SPARQL abgefragt und mit Webbasiserten Werkzeugen einfach konsumiert werden."@de ;
+    schema:publisher <org/FOEN> ;
+    schema:contactPoint <org/FOEN> ;
+    schema:contributor <org/zazuko> ;
+    schema:dateCreated "2015-08-06"^^xsd:date;
+    schema:dateModified "2020-10-12"^^xsd:date;
+    dcat:theme <topic/air-quality> ; # URIs
+    dcat:keyword "Ammoniak"@de, "Luftqualität"@de . # strings
+
+<foen/ubd/28/pm1> a cube:Cube ;
+    schema:name "Luftqualität Schweiz: Feinstaub PM1"@de ;
+    schema:description "Messdaten (Jahreswerte) von nationalen, kantonalen und kommunalen Messstationen für Luftschadstoffe, zusammengestellt durch die Schweizerische Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) und das BAFU. Mit den Umwelt Basisdaten stellt das Bundesamt für Umwelt diverse Datensätze zur Verfügung, die Auskunft über die Belastung der Umwelt in der Schweiz geben. Exemplarisch stehen zwei Datensätze als Linked Data (Data Cube Vokabular) zur Verfügung. Diese können über SPARQL abgefragt und mit Webbasiserten Werkzeugen einfach konsumiert werden."@de ;
+    schema:publisher <org/FOEN> ;
+    schema:contactPoint <org/FOEN> ;
+    schema:contributor <org/zazuko> ;
+    schema:dateCreated "2015-08-06"^^xsd:date;
+    schema:dateModified "2020-10-12"^^xsd:date;
+    dcat:theme <topic/air-quality> ; # URIs
+    dcat:keyword "Feinstaub PM1"@de, "Luftqualität"@de . # strings
 
 ##
 ## Topics
