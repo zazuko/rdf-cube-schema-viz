@@ -84,6 +84,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     schema:publisher <org/FOEN> ;
     schema:contactPoint <org/FOEN> ;
     schema:contributor <org/zazuko> ;
+    schema:creativeWorkStatus <status/Draft> ;
     schema:dateCreated "2015-08-06"^^xsd:date;
     schema:dateModified "2020-10-12"^^xsd:date;
     dcat:theme <topic/air-quality> ; # URIs
@@ -95,6 +96,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     schema:publisher <org/FOEN> ;
     schema:contactPoint <org/FOEN> ;
     schema:contributor <org/zazuko> ;
+    schema:creativeWorkStatus <status/Draft> ;
     schema:dateCreated "2015-08-06"^^xsd:date;
     schema:dateModified "2020-10-12"^^xsd:date;
     dcat:theme <topic/air-quality> ; # URIs
@@ -116,5 +118,13 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 <unit/ug-m3> a qudt:Unit ;
   schema:name "µg/m3" .
 
+##
+## Status
+## 
 
+<status/Draft> a schema:DefinedTerm ;
+  schema:name "Draft"@en .
+
+<status/Published> a schema:DefinedTerm ;
+  schema:name "Published"@en .
 
