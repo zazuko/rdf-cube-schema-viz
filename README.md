@@ -146,7 +146,6 @@ It should be possible to express nested hierarchies in a machine processable way
 Our example can be visualized:
 
 ![Example of a hierarchy](./img/example-hierarchy.svg)
-<img src="./img/example-hierarchy.svg">
 
 There are two paths that would be possible: `<observation1> -> <mun-nidau> -> <canton-bern>` or `<observation1> -> <mun-nidau> -> <district-bielbienne> -> <canton-bern> `. There is no way to know if the district should be followed or not by purely interpreting the data structure.
 
