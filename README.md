@@ -17,7 +17,6 @@ This is work in progress for extending the [RDF Cube Schema]() with additional m
 To add the title and a short description of the cube the properties `schema:name` and `schema:description` are used respectively directly on the `cube:Cube` Class.
 
 ## Dimension Description
-
 ### Name and Description
 The name and description of a dimension are represented in the [Cube Constraint per Dimension](https://github.com/zazuko/rdf-cube-schema#metadata-and-validation-constraint). To add the title and a short description the properties `schema:name` and `schema:description` are used respectively.
 
