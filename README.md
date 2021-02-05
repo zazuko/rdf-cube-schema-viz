@@ -41,7 +41,7 @@ The different scaleTypes hint about features which can be used for visualization
 In addition to honor a selected dataType on each literal value, the expected dataType per dimension is further added to the [Cube Constraint per Dimension](https://github.com/zazuko/rdf-cube-schema#metadata-and-validation-constraint) per `shacl:datatype`.
 
 ### dataKind (temporal / spatial)
-Finally to express that the dimension provides a specific _kind_ of data which is necessary to select the correct visual representation we add `cube:dataKind` with the following structure possible values:
+Finally to express that the dimension provides a specific _kind_ of data which is necessary to select the correct visual representation we add `https://cube.link/meta/dataKind/` with the following structure possible values:
 
 * [`schema:GeoCoordinates`](https://schema.org/GeoCoordinates): To hint that the dimension does provide Resources with latitutde and longitude which can be shown on a map.
 * [`schema:GeoShape`](https://schema.org/GeoShape): To hint that the dimension does provide Resources which have a shape which can be shown on a map.
@@ -50,7 +50,9 @@ Finally to express that the dimension provides a specific _kind_ of data which i
   It is further possible to add [`time:unitType`](https://www.w3.org/TR/owl-time/#time:unitType) to hint about the precision in which the dimension should be presented. A [`time:TemporalUnit`](https://www.w3.org/TR/owl-time/#time:TemporalUnit) is expected: `time:unitYear`, `time:unitMonth`, `time:unitWeek`, `time:unitDay`, `time:unitHour`, `time:unitMinute` and `time:unitSecond`.
   
   ```turtle
-  <dimension> cube:dataKind [ 
+  @prefix: <https://cube.link/meta/dataKind/>
+  
+  <dimension> meta:dataKind [ 
      a time:GeneralDateTimeDescription;
      time:unitType time:unitYear
   ].
