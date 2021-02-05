@@ -1,6 +1,6 @@
 # RDF Cube Schema: Visualization Extensions
 
-This is work in progress for extending the [RDF Cube Schema]() with additional metadata that can be used for better default-visualizations of RDF cubes.
+This is work in progress for extending the [RDF Cube Schema](https://github.com/zazuko/rdf-cube-schema) with additional metadata that can be used for better default-visualizations of RDF cubes.
 
 ## External Vocabularies
 
