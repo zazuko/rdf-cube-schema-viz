@@ -44,6 +44,11 @@ In addition to honor a selected dataType on each literal value, the expected dat
 Finally to express that the dimension provides a specific _kind_ of data which is necessary to select the correct visual representation we add `https://cube.link/meta/dataKind/` with the following structure possible values:
 
 * [`schema:GeoCoordinates`](https://schema.org/GeoCoordinates): To hint that the dimension does provide Resources with latitutde and longitude which can be shown on a map.
+  ```turtle
+  @prefix: <https://cube.link/meta/dataKind/>
+  
+  <dimension> meta:dataKind [ a schema:GeoCoordinates ].
+  ```
 * [`schema:GeoShape`](https://schema.org/GeoShape): To hint that the dimension does provide Resources which have a shape which can be shown on a map.
 * [`time:GeneralDateTimeDescription`](https://www.w3.org/TR/owl-time/#time:GeneralDateTimeDescription): To hint that the dimension does provide Resources which can be shown on a timeline.
   
