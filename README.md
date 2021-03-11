@@ -123,10 +123,14 @@ Our approach moves the reification/annotation to the [constraint](https://github
 
 ```turtle
 [ 
-  sh:path <precision>
+  sh:path <dimension/precision>
   # ... additional definitions for that sh:property
-  <relation> [ <PropertyRelation>
-    <target> <value>
+  cube:relation [ a cube:Relation ;
+     # for the moment we recommend to define properties in your own namespace,
+     # thus the "ex" namespace.
+     # We might try to get that into another vocab like QUDT in the future or
+     # provide generic properties on our own
+     ex:precisionOf <dimension/value>
   ]
 ]
 ```
