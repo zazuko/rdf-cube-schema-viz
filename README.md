@@ -63,6 +63,23 @@ Finally to express that the dimension provides a specific _kind_ of data which i
   ].
   ```
 
+## Version History of Cubes
+
+To be able to have a continious history of a published cube there is a meta construct which can be put around a cube, describing a line of history of a cubes based on a `schema:CreativeWork`.
+
+```
+<https://example.org/cube-version-history> a schema:CreativeWork ;
+   schema:hasPart <https://example.org/cube-version-history/1> ;
+   schema:hasPart <https://example.org/cube-version-history/2> ;   
+   schema:hasPart <https://example.org/cube-version-history/3> .
+```
+
+The version history has attached through `schema:hasPart` each time a fully described cube which can be interpreted independently. It is expected that the cubes in the same history line do not change the count of dimensions. All the other descriptions can change.
+
+On the cube through `schema:CreativeWorkStatus` a status of the cube, like *Draft* or *Published* can be added. The status is expected to be a `schema:DefinedTerm`.
+
+Finally, a cube can be invalidated or unlisted by adding `schema:expires` with the expiry date to the cube itself.
+
 ## Relations between quantitative values
 
 (Originally raised as an issue in [rdf-cube-schema-viz](https://github.com/zazuko/rdf-cube-schema-viz/issues/15)).
