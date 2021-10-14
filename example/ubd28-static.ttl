@@ -67,7 +67,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     void:exampleResource <https://environment.ld.admin.ch/foen/ubd/28/ammonia/observation/agMUR-2000-annualmean> ;
     void:exampleResource <https://environment.ld.admin.ch/foen/ubd/28/pm1/observation/szRIG-2010-maxdailymean> .
 
-<dataset/ubd28-Dist> a dcat:Distribution ;
+<dataset/ubd28-dist> a dcat:Distribution ;
     dcterms:issued "2015-08-06"^^xsd:date; # date of publication of the source
     dcterms:publisher <org/FOEN> ;
     dcterms:identifier  "UBD0028.xls@bafu.admin.ch" ;
